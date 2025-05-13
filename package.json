@@ -1,0 +1,28 @@
+{
+  "name": "inf653final",
+  "version": "0.0.1",
+  "description": "final project for inf653 at fhsu",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test nyc mocha",
+    "mocha": "NODE_ENV=test mocha",
+    "start": "node index.js"
+  },
+  "author": "Judson Hartley",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "chai": "^5.2.0",
+    "chai-http": "^5.1.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^11.2.2",
+    "mongoose": "^8.14.1",
+    "nodemailer": "^7.0.3",
+    "nyc": "^17.1.0",
+    "qrcode": "^1.5.4",
+    "wtfnode": "^0.10.0"
+  }
+}
