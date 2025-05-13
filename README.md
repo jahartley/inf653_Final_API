@@ -2,10 +2,9 @@
 
 FHSU INF653 Web Backend Final Project: 
 
-## Assignment Notes
-- MongoDB uses _id for the ID key, this code reflects using _id vs id in the API.
-- the .env file contains PORT=xxxx and MONGOURI="mongodb+srv://un:pw@cluster0.mongodb.net/studentDB?retryWrites=true&w=majority&appName=Cluster0"
-- no default route or web pages were included in this assignment per the assignment requirements.
+## Project Notes
+
+This project involves a backend web API, for an event booking system. 
 
 ## Development Environment
 
@@ -36,7 +35,7 @@ http:
       entryPoints:
         - websecureint
         - websecure
-      rule: Host(`inf653final.jahartley.com`)
+      rule: Host(`inf653final.x.com`)
       service: inf653final
       tls:
         certResolver: leresolver
